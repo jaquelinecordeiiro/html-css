@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(100, 160, 157);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+#especial{
+    background-color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.h2{
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.primeiro{
+    background-color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+}

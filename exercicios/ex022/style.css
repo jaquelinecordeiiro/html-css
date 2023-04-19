@@ -1,0 +1,153 @@
+@charset "UTF-8";
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family: ELNATH;
+    src: url(elnath/ELNATH.ttf);
+}
+body{
+    
+    background-color: #ebe5c5;
+}
+
+header{
+    min-height: 150px;
+    
+    color: white;
+    font: normal bold 16px Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #22864F , #21854E , #16673A , #063D1E);
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: #066E56 0px 07px 07px;
+}
+header>p{
+    padding-top: 40px;
+    font: normal light 16px Times New Roman;
+}
+nav{
+    color: #2FA866;
+    text-align: left;    
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+       
+}
+nav>a{
+    color: #6df0d1;
+    text-decoration: none;
+    font: normal bold 16px Arial, Helvetica, sans-serif;
+}
+nav>a:hover{
+    background-color: #258E55;
+    color: #063D1E;
+    
+}
+article{
+   
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.external{
+    color: #1A5C37;
+    font: normal bolder 16px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color:#A6EAC4
+}
+.external:hover{
+
+    text-decoration: underline;
+    
+}
+
+main{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-top: 40px;
+    border-left: 400px;
+    border-width: 400px;
+    border-right: 400px;
+    
+}
+.p{
+    padding: 10px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    text-indent: 15px;
+    line-height: 2.0em;
+}
+h2{
+    color: #0A4725;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: ELNATH;
+    padding: 1px;
+}
+.h3{
+    background-image: linear-gradient(to right, #A6EAC4 , white);
+    font-family: ELNATH;
+    padding: 1px;
+    color: #063D1E;
+    padding: 1px;
+    
+}
+.imagem{
+    text-align: center;
+}
+.imagemlink{
+    width: 15px;
+    right: 15px;
+    padding-left: 0px;
+    background-color:#A6EAC4;
+
+}
+div.video{
+    height: 500px;
+    width: 940px;
+    background-color: #063D1E;
+    margin: 20px -20px;
+    padding: 50px;
+    text-align: center;
+
+  
+}
+aside{
+    padding: 5px;
+    border-radius: 4%;
+           
+    background-color: #83E1AD;
+}
+aside>h3{
+    width: 990px;
+    height: 30px;
+    color: white;
+    background-color: #063D1E;
+    margin: -5px;
+    border: 0px;
+    padding: 5px;
+        
+}
+.menu{
+    list-style-type: square;
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px;
+}
+
+.titulo{
+    background-color: #1A5C37;
+    color: white;
+}
+.strong{
+    color: #1A5C37;
+
+}
+footer{
+    background-color: #063d1e;
+    color: white;
+    text-align: center;
+}

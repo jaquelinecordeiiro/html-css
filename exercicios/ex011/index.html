@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Adicionando imagens com ajuste de tamanho automatico</h1>
+    Para adicionar imagens que se ajustam ao tamanho da tela usamos a tag < picture ></ picture>, dentro dessa tag colocamos a tag < img > </ img > com o s parâmetros: "type", "source" e "scrsel". <br> Onde <strong>source</strong> diz respeito ao tamanho que a imagem vai se ajustar (sempre colocar 50 a mais), <strong>type</strong> o tipo de imagem e <strong>scrsel</strong> o local em que a imagem esta armazenada. </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel">
+    </picture>
+
+</body>
+</html>

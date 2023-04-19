@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    background-color: #0FC2C0;
+}
+
+h1{
+    background-color: #015958;
+    color: white;
+    font: oblique border 15px 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 450px;
+    padding: 5px;
+    border: 10px double aquamarine;
+    margin: auto;
+}
+#anatomia{
+    font: italic lighter 12px Arial, Helvetica, sans-serif;
+    color: #023535;
+    background-color: #008f8d8e;
+    width: 400px;
+    padding: 10px;
+    margin: 20px 25px;
+    
+ 
+}
+#box{
+    font: normal bold 12px Arial, Helvetica, sans-serif;
+    color: #023535;
+    background-color: #008f8d8e;
+    width: 300px;
+    padding: 50px 25px;
+    border-radius: 10px;
+    margin: 20px 25px;
+}
+#inline{
+    font: normal bolder 13px Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #008f8d8e;
+    color: #023535;
+    width: 300px;
+    padding: 25px 20px;
+    border: 10px dashed aquamarine;
+    margin: 25px
+}
+.texto{
+    font: italic lighter 15px 'Times New Roman', Times, serif;
+    background-color: #008f8d8e;
+    color: #011414;
+    width: auto;
+    padding: 20px;
+    border: 5px groove aquamarine;
+    margin: 30px;
+     
+}
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link a Âncoras</title>
+</head>
+<body>
+    <p>Para adicionar link ao texto/página em HTML usamos a tag < a >< /a >, onde ela cria a ancora entra o link externo e a página que criamos. <br> Dentro da tag podemos colocar os parâmetros: "target" e "rel". <br> Em target usamos o "_black" para abrir  o link em uma nova aba e o "rel" para indicar que é um link externo"</p>
+    <p><a href="https://www.tudogostoso.com.br/receita/876-lasanha-de-carne-moida.html" target="_black" rel="external">Receita para lasanha bolonhesa.</a></p>
+    <p>OBS: <strong>O link fica envelopado dentro do texto em que selecionamos</strong>, a<em>o clicar nesse texto a nova aba é aberta.</em></p>
+    <h1>Links Internos</h1>
+    <hr>
+    <p>Link internet serve para criar uma ligação entre links/páginas do mesmo repositório. Diferente do link internet onde colocamos a link de algum site no internet solocamos o caminho da página dentro do respositório. Usamos também a tag < a > < / a >, e os parametros "rel" e "target" a diferença é que em target usamos o parametro "_selfie" para identificar que o link contine na mesma página, em rel usamos o "next" para informar que estamos indo para a proxima página e o "prev" para informar que estamos voltando a página! <br> OBS. para selecionar uma página no mesmo repositório apertamos no teclado ctrl + espaço. <br> Já para adicionar uma subpasta desse mesmo repósitório apertamos ctrl+espaço e selecionamos a pasta em seguida a página. <br>obs2: Paara voltar da subpasta para a pagina inicial devemos colocar "../" antes do nome da primeira página!</p>
+    <p>A cesse meu <a href="pag002.html" rel="next" target="_self">link interno</a></p>
+    <p></p>
+    <p>Acesse minha terceira página, dentro da pasta recceitas, é só <a href="receitas/pag003.html" rel="next" target="_self">clicar aqui</a></p>
+    <h1>Link Download</h1>
+    <p>Para criar um link que possa fazer download continuamos a usar a tag < a > </ a >, com os parâmetros "download="nome do arquivo que vai ser baixado" e type="application/pdf".</p>
+    <ul>
+        <li><a href="livro/Bíblia em Ordem Cronológica NVI.pdf" download="Biblia em Ordem Cronologica NVI.pdf" type="application.pdf">CLique aqui </a>para baixar livro em pdf</li>
+        <li>Para baixar o livro compactado, <a href="livro/Bíblia em Ordem Cronológica NVI.rar" download="Biblia em Ordem Cronologica.rar" type="application.rar">clique aqui</a></li>
+    </ul>
+
+</body>
+</html>
