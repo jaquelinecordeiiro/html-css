@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Tabelas</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 10px;
+
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+        col.cnome{
+            background-color: blue;
+        }
+        col.csexo{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+
+        </colgroup>
+        <caption>CADASTRO</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">NOME</th>
+                <th scope="col">SEXO</th>
+                <th scope="col">IDADE</th>
+                <th scope="col"> PROFISSÃO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ANA</td>
+                <td>FEMININO</td>
+                <td>55</td>
+                <td>PROFESSORA</td>
+            </tr>
+            <tr>
+                <td>JOÃO </td>
+                <td>MASCULINO</td>
+                <td>25</td>
+                <td>AUTONOMO</td>
+            </tr>
+            <tr>
+                <td>MARIA</td>
+                <td>FEMININO</td>
+                <td>88</td>
+                <td>COSTUREIRA</td>
+            </tr>
+            <tr>
+                <td>MARTA</td>
+                <td>FEMININO</td>
+                <td>22</td>
+                <td>ESTUDANTE</td>
+            </tr>
+            <tr>
+                <td>JAQUELINE</td>
+                <td>FEMININA</td>
+                <td>30</td>
+                <td>ATENDENTE</td>
+            </tr>
+            <tr>
+                <td>MARCIO</td>
+                <td>MASCULINO</td>
+                <td>33</td>
+                <td>PINTOR</td>
+            </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>
