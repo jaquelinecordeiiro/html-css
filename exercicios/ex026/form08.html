@@ -9,11 +9,11 @@
 <body>
     <h1>Exempplos de formulários</h1>
 
-    <form action="cadastro.php" method="get" autocomplete="off">   
+    <form action="cadastro.php" method="get" autocomplete="on">   
 
         <p>
             <label for="iano">Em que ano você nasceu?</label>
-            <input type="number" name="ano" id="iano" min="1980" max="2023">
+            <input type="number" name="ano" id="iano" min="1980" max="2023" oninput="calcIdade()">
         </p>
         <p>
             <label for="iidade">Sua idade é:</label>
@@ -28,7 +28,7 @@
     </form> 
     <script>
         function calcIdade(){
-            let atual = new Date().getfullYear()
+            let atual = new Date().getFullYear()
             iidade.innerHTML = Number(atual) - Number(iano.value)
         }
     </script>   
