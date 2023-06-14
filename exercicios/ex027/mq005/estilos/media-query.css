@@ -3,20 +3,20 @@
 @media print{
 
 }
-@media screen and (min-width:481px) and (max-width: 1024px){
+@media screen and (min-width:1284px) and (max-width: 1600px){
     body{
         background-image: url(../imagens/back-tablet.jpg);
     }
 
 }
-@media screen and (min-width:1025) and (max-width:1600px){
+@media screen and (min-width:1600) and (max-width:1900px){
     body{
         background-image: url(../imagens/back-pc.jpg);
     }
 
 }
 
-@media screen and (min-width:1601) and (max-width: 1920px){
+@media screen and (min-width:1901) {
     body{
         background-image: url(../imagens/back-tv.jpg);
     }
